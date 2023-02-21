@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {font-family: arial, sans-serif;word-wrap: normal;padding: 10px;}
+        th {word-wrap: break-word;text-align:left;padding: 10px;}
+        td {word-wrap: break-word;padding: 8px;}
+    </style>
+</head>
+<body>
+    <strong>Hi</strong> NewsFeed user,
+    <br><br>
+    Your NewsFeed for <strong>{{CURRENT_DATE}}</strong> is here!!
+    <br><br>
+    <table>
+        <tr>
+            <th style='width: 14%;'><strong>Topic</strong></th>
+            <th style='width: 58%;'><strong>Title</strong></th>
+            <th style='width: 9%;'><strong>Link</strong></th>
+            <th style='width: 14%;'><strong>Source</strong></th>
+        </tr>
+        {{NEWS_FEED}}
+    </table>
+    <br>
+    Thank You for your time.
+    <br><br>
+    Regards,
+    <br>
+    <i><strong>Sandip Palit</strong>.</i>
+    <br><br><br>
+    <i><strong>Note:</strong> This email was generated from NewsFeed github repository.
+    <br>
+    If you like this initiative, kindly give it a star: <a href='https://github.com/SandipPalit/NewsFeed/'>Github</a>.
+    <br>
+    Feel free to share your feedback with me: <a href='https://www.linkedin.com/in/sandip-palit/'>LinkedIn</a>.</i>
+</body>
